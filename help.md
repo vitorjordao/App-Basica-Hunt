@@ -1,3 +1,14 @@
+## Linux e suas variáveis de ambiente
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+source $HOME/.bashrc
+
+echo $ANDROID_SDK_ROOT
+
 ## Comandos e lembretes
 
 react-native run-android
